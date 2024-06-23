@@ -6,6 +6,6 @@ The model used is 'Wizard-Vicuna-13B-Uncensored', an uncensored text generation 
 Explanation:
 
 **Purpose**: The chatbot aids writers by suggesting story ideas and helping with plot development, catering to both censored and uncensored storytelling needs.<br />
-**Model**: 'Wizard-Vicuna-13B-Uncensored' is specified as the model used for generating text. It operates without censorship.
-**Dataset**: A dataset stored in the Pinecone database includes scenarios from both censored and uncensored plots, providing a broad foundation for story generation.
+**Model**: 'Wizard-Vicuna-13B-Uncensored' is specified as the model used for generating text. It operates without censorship.<br />
+**Dataset**: A dataset stored in the Pinecone database includes scenarios from both censored and uncensored plots, providing a broad foundation for story generation.<br />
 **Method**: The retrieval-augmented method involves matching user queries with embeddings in the vector database to retrieve relevant datasets. The retrieved data then serves as input for the model to generate a complete story based on the user's input.
